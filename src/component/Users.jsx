@@ -58,7 +58,7 @@ const Box = (props) => {
                             </div>
                         </div>
 
-                        <div className='bottom-right-text' style={{ marginInline: "7px", padding: '4px 6px 10px', textAlign: 'center', fontSize: '20px' }} >
+                        <div className='bottom-right-text' style={{ marginInline: "7px", padding: '4px 6px 10px', textAlign: 'center', fontSize: '17px',margin:'4%' }} >
                             <span>{ticket.tag} </span></div>
                     </div>
 

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Box from './box';
 import UserBased from './PriorityBased';
-
+import './Main.css';
 
 const Main= () => {
     const [tickets, setTickets] = useState([]);
@@ -99,11 +99,11 @@ const Main= () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <div>
-            <div style={{ background: '#ececf8', padding: '20px 20px' }}>
-                <nav style={{ display: 'flex', marginInline: '10%' }}>
-                    <div style={{}} >
-                        <div style={{ display: 'flex', alignItems: 'center', border: '1px solid black' }}>
+        <div >
+            <div className="navbar">
+                <nav className="nav">
+                    <div style={{marginTop:'1%',marginBottom:'1%'}}>
+                        <div style={{ display: 'flex', alignItems: 'center', border: '1px solid black',padding:'2px 2px',borderRadius:'12%' }}>
                             <img
                                 src="https://cdn-icons-png.flaticon.com/512/70/70115.png"
                                 alt="setting"
